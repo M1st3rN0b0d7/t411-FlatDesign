@@ -1,0 +1,1239 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+/* @-moz-document domain("t411.ch") { */
+    
+    .torrentDetails .accordion pre {
+        overflow-y: auto;
+        max-height: 400px;
+    }
+    .Comment .CommentForm .Buttons a.Cancel {
+        padding: 4px;
+        background-color: grey;
+        border-radius: 3px;
+        color: white;
+    }
+    .Comment .CommentForm .Buttons a.Cancel:hover {
+        text-decoration: none;
+        background-color: red;
+    }
+    .Comment .Meta a.EditComment,
+    .Comment .Meta a.EditDiscussion {
+        padding: 4px;
+        background-color: grey;
+        border-radius: 3px;
+        color: white;
+    }
+    .Comment .Meta a.EditComment:hover,
+    .Comment .Meta a.EditDiscussion:hover {
+        text-decoration: none;
+        background: #2980b9;
+    }
+    .MessageList .Meta {
+        margin-bottom: 10px;
+    }
+    .MessageList .Meta .CommentInfo {
+        margin-top: 19px;
+    }
+    .MessageList .Meta .CommentInfo span {
+        display: block;
+    }
+    .MessageList .Item {
+        min-height: 150px;
+    }
+    .Comment .Meta {
+        float: left;
+        height: auto;
+        width: 200px!important;
+    }
+    .Comment span.DateCreated {
+        padding-left: 0;
+        padding-right: 22px;
+        font-size: 13px;
+    }
+    .Comment .Message,
+    .UserSignature {
+        margin-left: 220px;
+    }
+    .description h2,
+    .description h2 span {
+        background-color: inherit!important;
+    }
+    .block .nopad a:visited {
+        color: #0000EE;
+    }
+    #Head {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    #Head form {
+        position: relative;
+        margin-right: 200px;
+    }
+    a.BigButton.NewDiscussion {
+        position: fixed;
+        top: 0;
+        margin-top: 3px;
+        margin-right: 12px;
+        height: 25px;
+    }
+    #Head form input#Form_Go {
+        width: 38px;
+        height: 30px;
+        background: #2980b9!important;
+        color: white;
+        position: absolute;
+        right: -5px;
+        top: -27px;
+        padding: 3px 5px 5px 5px;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    #Head form input#Form_Go:hover {
+        background: #3498db!important;
+    }
+    #Content {
+        margin-top: 38px!important;
+        margin-left: 3px!important;
+        margin-right: 0!important;
+    }
+    .profile .private {
+        border-image: url(http://zupimages.net/up/16/26/hnlw.png) 19 round;
+        border-style: solid;
+        border-width: 10px;
+        border-left: 0;
+        border-right: 0;
+    }
+    .itemWrapperHalf {
+        font-family: "Open Sans";
+    }
+    .profile dl,
+    .profile dd {
+        font-size: 15px;
+        line-height: inherit;
+    }
+    .profile dt {
+        width: 205px;
+    }
+    .MessageList .Meta {
+        background-color: white;
+        display: inline-block;
+        padding: 5px;
+        border-radius: 4px;
+        font-family: "Open Sans";
+        box-shadow: 1px 1px 5px 0px;
+        width: 350px;
+    }
+    .userBox .column li a:hover {
+        color: #A7FF00;
+        text-decoration: none;
+    }
+    .NumberedPager a,
+    .pagebar a {
+        font-family: "Open Sans";
+        font-weight: bold;
+    }
+    .NumberedPager a:hover,
+    .pagebar a:hover {
+        text-decoration: none;
+        color: red!important;
+    }
+    .NumberedPager a:visited,
+    .pagebar a:visited {
+        color: blue;
+    }
+    .NumberedPager a.Highlight,
+    .pagebar span {
+        color: #FF1DEB;
+    }
+    .NumberedPager a.Previous,
+    .NumberedPager span.Previous,
+    .NumberedPager a.Next,
+    .NumberedPager span.Next {
+        font-size: 21px;
+    }
+    .Discussions .ItemContent a.Title {
+        padding-bottom: 7px;
+    }
+    .DataList.Discussions .Meta span.LastCommentBy {
+        position: absolute;
+        right: 130px;
+        font-size: 14px;
+    }
+    .DataList.Discussions .Meta span.LastCommentBy a {
+        color: #1e79a7;
+        font-weight: bold;
+    }
+    .DataList.Discussions .Meta span.LastCommentBy a:hover {
+        text-decoration: none;
+    }
+    .DataList .Meta span a.Category {
+        display: none;
+    }
+    .DataList .Meta strong {
+        background: rgba(0, 255, 69, 0.35);
+        font-family: Open Sans;
+        font-size: 12px;
+        position: absolute;
+        right: 500px;
+        padding: 6px;
+        width: 100px;
+        text-align: center;
+        margin-top: -4px;
+        text-indent: 0;
+    }
+    .DataList .Meta .Closed {
+        background: #FF1515;
+    }
+    ::selection {
+        background: #40d47e;
+        color: white;
+    }
+    ::moz-selection {
+        background: #40d47e;
+        color: white;
+    }
+    .loginBar .needvote {
+        background: url('http://zupimages.net/up/16/26/my6h.png');
+        background-repeat: no-repeat;
+    }
+    .DataList a.Title {
+        color: #1e79a7;
+    }
+    .results tbody td a:visited {
+        color: grey;
+    }
+    .Item .Author img {
+        width: 60px;
+        height: 60px;
+        border-radius: 3px;
+    }
+    div.CommentTabs {
+        text-shadow: none!important;
+    }
+    #messages p {
+        font-family: Arimo;
+        font-size: 14;
+    }
+    .Comment .Message a {
+        text-decoration: underline;
+        color: blue;
+        font-weight: bold;
+    }
+    .Message a:hover {
+        color: green;
+        /* BUG : Interfère avec la shoutbox */
+    }
+    #DiscussionForm textarea {
+        width: 100%!important;
+        height: 300px!important;
+        overflow-y: scroll!important;
+    }
+    #DiscussionForm textarea,
+    #DiscussionForm input.InputBox,
+    .TextBoxWrapper textarea#Form_Body {
+        background-color: white;
+        font-family: monospace;
+        font-size: 14px;
+        overflow-y: auto!important;
+    }
+    #DiscussionForm input.InputBox,
+    .CommentForm textarea.TextBox,
+    form#comment-form textarea#inputtext {
+        background-color: white;
+    }
+    .CommentForm .EmotifyDropdown {
+        background: url(http://zupimages.net/up/16/26/ckq6.png) 0 0 no-repeat;
+        top: 5px;
+        right: 5px;
+    }
+    div.Preview {
+        border: none;
+        padding-top: 2px;
+    }
+    .TextBoxWrapper textarea {
+        font-size: inherit;
+    }
+    .EmotifyDropdown {
+        background: url(http://zupimages.net/up/16/26/ckq6.png) 0 0 no-repeat;
+        top: 3px;
+        right: 0;
+    }
+    .EmoticonContainer {
+        top: 24px;
+        right: 15px;
+    }
+    .Overlay {
+        overflow: hidden;
+    }
+    div.Popup .Body {
+        width: 1100px!important;
+        height: 500px!important;
+        overflow-y: scroll;
+    }
+    a.Close {
+        color: white!important;
+        top: 14px;
+        right: 35px;
+        background-color: grey;
+        border-radius: 11px;
+        padding: 3px 5px 0 5px;
+    }
+    a.Close:hover {
+        background-color: red;
+    }
+    .Popup .Preview .Message {
+        margin-top: -15px;
+    }
+    .Popup .Preview {
+        height: 482px;
+    }
+    .loginBar .reload {
+        background: url(http://zupimages.net/up/16/26/yy1a.png);
+        padding-left: 16px;
+        background-position: center!important;
+        background-size: 20px!important;
+    }
+    .loginBar .reload:focus {
+        background: url(http://zupimages.net/up/16/26/o3m3.gif);
+    }
+    .loginBar .reload:hover {
+        -webkit-filter: none;
+        filter: none;
+        transition: filter 0.5s, -webkit-filter 0.5s;
+    }
+    .footer .logos {
+    background-image: url(#);
+    width: 576px;
+    height: 36px;
+    margin: 20px 7px 0px 0px;
+    }   
+    .logos {
+        display: none;
+        /* UpIMG down */
+    }
+    .pagebar {
+        padding-top: 12px;
+    }
+    .spacer {
+        height: 50px;
+    }
+    .torrent-status {
+        margin-top: 5px;
+    }
+    .loginBar a.mail {
+        background: url('http://zupimages.net/up/16/26/d0wo.png') -1573px 2px;
+    }
+    .loginBar .newpm {
+        background: url('http://zupimages.net/up/16/26/tdns.png') -1573px 2px;
+    }
+    .loginBar .newpm strong {
+        color: red;
+    }
+    .loginBar a.logout {
+        background: url('http://zupimages.net/up/16/26/d0wo.png') -1209px 3px no-repeat;
+        font-size: 0px;
+        padding: 12px;
+        padding-top: 16px;
+    }
+    .loginBar a.mail,
+    .loginBar a.logout,
+    a.needvote {
+        transition: opacity 0.4s;
+        opacity: 0.6;
+    }
+    .loginBar a.mail:hover,
+    .loginBar a.logout:hover,
+    a.needvote:hover {
+        opacity: 1;
+    }
+    #button-smiles,
+    #form #text-input {
+        margin-top: 3px!important;
+    }
+    #form {
+        padding-left: inherit;
+    }
+    .HeadingTabs .SubTab {
+        padding-left: 7px;
+        font-size: 15px;
+    }
+    #upload-form textarea,
+    form.plainform textarea {
+        width: 650px;
+    }
+    div.Tabs {
+        color: rgba(0, 41, 255, 0.64);
+        background: #cfecff;
+        text-shadow: 1px 1px 2px gray;
+        /* Text Shadow = droite, bas, flou, couleur */
+    }
+    .Headings .ItemHeading {
+        font-size: 18px;
+    }
+    .CategoryHeading .ItemContent {
+        font-family: "Droid Serif";
+        font-size: 17px;
+    }
+    .ItemContent a.Title {
+        font-family: "Poiret One";
+        font-size: 20px;
+    }
+    .ItemContent .CategoryDescription {
+        font-size: 15px;
+    }
+    .LastCommentDate,
+    .CommentInfo {
+        font-size: 13px;
+    }
+    #Popup a.Close:hover {
+        text-decoration: none;
+    }
+    #ConversationForm .TextBox {
+        height: 240px;
+    }
+    #ConversationForm input.Button {
+        margin: 0px 0 2px;
+    }
+    div.Popup {
+        top: 115px!important;
+        left: 75px!important;
+    }
+    div.Popup .Border {
+        max-width: inherit;
+    }
+    div.Popup .Body {
+        width: 600px;
+        height: 400px;
+    }
+    #ConversationForm h1 {
+        background: #1E608C;
+    }
+    a.BigButton,
+    input.Button {
+        background: #2980b9;
+        color: white;
+        font-weight: normal;
+        border: none;
+        font-family: "Open Sans"!important;
+    }
+    a.BigButton:hover,
+    input.Button:hover {
+        background: #3498db;
+        text-decoration: none;
+        color: white;
+        border: none;
+    }
+    .loginBox label {
+        color: white;
+    }
+    .loginBox ul.register li a {
+        color: white;
+    }
+    .loginbtn {
+        background: #2980b9;
+        margin-top: -3px;
+        width: 83px;
+        height: 27px;
+    }
+    .loginbtn:hover {
+        background: #3498db;
+    }
+    #Head {
+        background: #38abe3!important;
+        border-radius: 0;
+    }
+    #Head form input.InputBox {
+        position: absolute;
+        top: -27px;
+        right: 32px;
+        width: 260px;
+        height: 22px;
+        font-family: "Open Sans";
+        font-size: 17px;
+        color: black;
+        font-weight: bold;
+    }
+    #Menu a:hover {
+        text-decoration: none;
+    }
+    #Menu .depth-1 {
+        padding: 0px 8px 0;
+        background: #1E608C;
+        display: block;
+    }
+    #Menu .depth-2 a:hover {
+        background: #3498db!important;
+    }
+    table.compose textarea#inputtext {
+        width: 500px;
+        margin-top: 5px;
+    }
+    .switcher {
+        background: url('http://zupimages.net/up/16/26/nksd.png') 0 0 no-repeat;
+        margin-top: -13px;
+    }
+    .switcher.active {
+        background: url('http://zupimages.net/up/16/26/u37n.png') 0 0 no-repeat;
+        margin-top: 0;
+    }
+    .results {
+        border-collapse: inherit;
+    }
+    .results blockquote.active {
+        height: 22px;
+    }
+    .details,
+    .torrentDetails .accordion {
+        width: 800px;
+    }
+    .accordion table tr td {
+        text-align: left;
+    }
+    .torrentDetails th {
+        text-align: left;
+    }
+    .torrentDetails .accordion th,
+    .accordion td {
+        border: 1px solid rgba(0, 0, 0, 0);
+        font-family: Muli;
+        font-size: 15px;
+        word-break: keep-all!important;
+    }
+    .loginBar span a:hover {
+        text-decoration: none;
+    }
+    .contentWrapper {
+        min-width: inherit;
+        max-width: inherit;
+        margin: 0 auto;
+        overflow: inherit;
+        position: relative;
+    }
+    .comment tr th {
+        color: black!important;
+        border-right: 3px solid #7f8c8d;
+    }
+    .comment tr:hover th {
+        border-right-color: #3498db;
+        transition: border-right-color 0.3s;
+    }
+    /*
+#info .close {
+    background-image: url(http://www.upimg.fr/ih/uuir.png);
+    width: 26px;
+    height: 26px;
+    right: 4px;
+    top: 3px;
+}
+*/
+    
+    .loginBar strong.up {
+        color: #00FF00!important;
+    }
+    .loginBar strong.down {
+        color: #FF1515!important;
+    }
+    .accordion h3.title,
+    .spoiler h4 {
+        background: #e9e7e7 url(http://zupimages.net/up/16/26/mxmg.png) no-repeat right;
+    }
+    .accordion h3.active,
+    .spoiler h4.active {
+        background: #e9e7e7 url(http://zupimages.net/up/16/26/sewb.png) no-repeat right;
+    }
+    .faq-expand,
+    .faq-expand-all {
+        background: url(http://zupimages.net/up/16/26/mxmg.png) no-repeat right;
+    }
+    .inner textarea {
+        width: 590px;
+        height: 420px;
+    }
+    .loginBar span a {
+        font-family: "Open Sans"!important;
+    }
+    .btn,
+    input.btn,
+    .torrent-delete {
+        background: #2980b9!important;
+    }
+    .btn:hover,
+    input.btn:hover,
+    .torrent-delete:hover {
+        background: #3498db!important;
+    }
+    .details a.call {
+        background-color: rgb(0, 148, 202)!important;
+        font-weight: bold!important;
+    }
+    .details a.call:hover {
+        background: #18A905!important;
+    }
+    textarea#request-descr {
+        height: inherit;
+    }
+    .mail .msg {
+        margin-left: 135px;
+        padding-left: 15px;
+    }
+    .forumPosts ul {
+        height: 320px;
+        overflow-y: scroll;
+    }
+    textarea#inputtext {
+        height: 150px;
+    }
+    .smiles a {
+        padding-top: 7px;
+    }
+    textarea {
+        width: 800px;
+        height: 500px;
+    }
+    #text-input {
+        margin: 0px 3px 0px 3px!important;
+    }
+    #form input {
+        margin: 5px 2px 3px 2px;
+    }
+    #form #text-input {
+        width: 900px;
+        font-family: Arimo;
+    }
+    .comment .userinfo a {
+        display: block;
+        color: black;
+        font-weight: bold;
+        position: relative;
+    }
+    form {
+        margin: inherit;
+    }
+    .footer {
+        height: 65px;
+    }
+    .down {
+        color: red!important;
+    }
+    .content {
+        width: 90%;
+        margin: 0 auto;
+        min-height: inherit;
+        min-width: inherit;
+        max-height: inherit;
+        max-width: inherit;
+    }
+    .headWrapper {
+        background: #2980b9;
+        box-shadow: none;
+        height: 92px;
+    }
+    #lavamenu {
+        margin: 35px 0 0 200px;
+        top: 12px;
+    }
+    #lavamenu .backLava {
+        opacity: 0;
+        display: none;
+    }
+    #lavamenu li {
+        border-radius: 0;
+        padding: 5px 3px;
+    }
+    #lavamenu li a {
+        font-family: 'Open Sans';
+        font-size: 16px;
+        color: #fff;
+    }
+    #lavamenu li:hover {
+        background: #1E608C;
+    }
+    #lavamenu li ul {
+        background: #1E608C;
+        margin: 12px 0 0 -7px;
+        min-width: 150px;
+        display: none;
+        padding: 0;
+        border-radius: 0;
+        border: none;
+    }
+    #lavamenu li:hover ul {
+        display: block;
+    }
+    #lavamenu li ul li {
+        padding: 7px 10px;
+        border: none;
+    }
+    #lavamenu li ul li:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transition: background-color 0.5s;
+    }
+    .head .searchBar,
+    .head .loginBar,
+    .head .loginBarSide {
+        background: transparent;
+    }
+    .head .searchBar {
+        width: 250px;
+        height: 35px;
+        margin: 0;
+        overflow: hidden;
+    }
+    .head .toolbar,
+    .loginWrapper {
+        background: #1E608C;
+    }
+    .head .toolbar {
+        padding: 1px 0 3px 3px;
+        top: 3px;
+        border-radius: 5px;
+    }
+    .head .toolbar .loginBar {
+        padding: 3px 10px 0px 10px;
+    }
+    .head .toolbar .loginBar a {
+        color: white;
+    }
+    .head .toolbar .loginBar .sep {
+        margin: 6px 5px 0px 5px;
+    }
+    .headerPlace .loginWrapper {
+        height: 120px;
+        margin: -120px 0 0 0;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        -ms-transition: 0.3s;
+        transition: 0.3s;
+    }
+    .headerPlace.active .loginWrapper {
+        margin: 0;
+    }
+    .loginBar span {
+        font-family: Helvetica;
+        font-weight: 100;
+        color: #fff;
+    }
+    .loginBar span a {
+        font-family: Helvetica;
+        color: #fff;
+    }
+    .loginBar .slideToo,
+    .loginBar .slideToo.active {
+        background: transparent;
+        color: #fff;
+    }
+    .slideToo.active {
+        color: #A7FF00!important;
+    }
+    .loginBarSide {
+        display: none;
+    }
+    #bar-search *,
+    #searchBar #bar-search .searchHistory {
+        display: none;
+    }
+    #bar-search input {
+        background: rgba(255, 255, 255, 0.05);
+        top: -5px;
+        margin: 0;
+        padding: 7px;
+        border-radius: 0;
+        outline: none;
+        position: relative;
+        display: inline-block;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        color: #fff;
+    }
+    .contentWrapper h2 {
+        background: #2980b9;
+        padding: 7px;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .contentWrapper h2 span {
+        background: #2980b9;
+        border: none;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        color: #fff;
+    }
+    .footer {
+        background: #2980b9;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        color: #fff;
+    }
+    .footer .stats h4,
+    .footer .stats dl dt,
+    .footer .stats dl dd {
+        font-family: 'Open Sans';
+        font-weight: normal;
+        color: #fff;
+    }
+    .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all {
+        background: #1E608C;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+    .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all li {
+        padding: 0;
+        border: none;
+    }
+    .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all li a {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 6px;
+        border: none;
+        border-radius: 0;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        color: #fff;
+    }
+    .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all li a.ui-state-hover {
+        background: rgba(255, 255, 255, 0.2);
+        margin: 0;
+        border: none;
+    }
+    .userBox .avatar-big {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+        margin-top: 5px;
+    }
+    .userBox .column li a {
+        font-family: 'Open Sans';
+        font-weight: normal;
+        color: #fff;
+    }
+    .content .btn,
+    .content .redbtn,
+    .terms-list a {
+        background: #2980b9;
+        padding: 6px;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        color: #fff!important;
+        transition: background 0.3s, box-shadow 0.3s !important;
+    }
+    .content .btn,
+    .content .redbtn:hover {
+        text-decoration: none;
+    }
+    .content .redbtn.torrent-delete:hover {
+        background-color: red!important;
+        font-weight: bold;
+    }
+    #progress .green.ui-progressbar.ui-widget.ui-widget-content.ui-corner-all {
+        border: 1px solid rgb(180, 180, 180);
+        border-radius: 0;
+    }
+    #progressbar div:first-child {
+        padding: 2px 0;
+        font-family: 'Open Sans';
+        font-size: 15px;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    #progressbar .ui-progressbar-value.ui-widget-header.ui-corner-left {
+        background: #84C97B;
+        border: 1px solid #71A36A;
+        ;
+        border-radius: 0;
+    }
+    .loginBar span,
+    .loginBar span strong {
+        font-family: 'Open Sans';
+        font-size: 15px;
+        color: #fff;
+    }
+    .block.votes a,
+    .block.votes a span {
+        background: none;
+        width: auto;
+        padding: 0;
+        margin: 0;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        color: black;
+    }
+    .logo {
+        margin-left: -30px;
+        top: 5px;
+    }
+    .comment th span {
+        font-size: inherit;
+        font-weight: bold;
+    }
+    .comment th,
+    .comment th a {
+        font-family: 'Open Sans';
+        font-size: 15px;
+        font-weight: normal;
+        color: inherit;
+        text-align: left;
+    }
+    .details table tbody tr,
+    .details table tbody tr:nth-child(7) a {
+        color: rgba(0, 0, 0, 0.7);
+    }
+    #lavamenu li a,
+    #lavamenu li.backLava,
+    #lavamenu > li {
+        z-index: 1;
+    }
+    ul.PanelInfo {
+        background: #3498db;
+        border: 3px solid #5c5cff!important;
+        margin-right: 30px;
+        border-radius: 2px;
+        font-family: "Open Sans";
+        font-weight: bold;
+    }
+    ul.PanelInfo li a {
+        font-size: 13px!important;
+    }
+    ul.PanelInfo li a:hover {
+        text-decoration: none;
+    }
+    div.Box.About h4 {
+        font-size: 18px;
+    }
+    #Panel {
+        top: 45px;
+        position: fixed!important;
+    }
+    #Panel .Photo {
+        margin-right: 30px;
+    }
+    #Panel .Photo img {
+        border: 3px solid black;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        display: inherit;
+    }
+    div.Box.About {
+        padding-top: 10px!important;
+    }
+    div.Box.About dl dt,
+    div.Box.About dl dd {
+        font-size: 13px;
+    }
+    div.Tabs.ProfileTabs {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        margin-top: -4px;
+        padding-top: 5px;
+    }
+    #Content .Profile {
+        margin-top: 40px;
+    }
+    #Content .Profile .User {
+        position: fixed;
+        top: 25px;
+        left: 0;
+        margin-left: 50%;
+        z-index: 2;
+    }
+    #Content .Profile ul.DataList {
+        overflow-y: auto;
+        height: 100%;
+        left: 280px;
+        right: 0;
+        bottom: 0;
+        padding-top: 27px;
+    }
+    #Content .Profile .Meta span.DateCreated {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    #Content .Profile form#Form_Form {
+        padding-top: 40px;
+    }
+    .DataList a.Delete {
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .DataList a.Delete:hover {
+        padding: 5px;
+        margin-top: 5px;
+        background-color: red;
+        transition: background-color 0.3s;
+    }
+    div.ItemContent.Discussion {
+        margin-left: 5px;
+    }
+    table.comment {
+        font-family: "Open Sans";
+    }
+    table.comment tr.separator:hover {
+        background-color: grey;
+    }
+    table.comment tr.separator:hover td,
+    table.comment tr.separator:hover td a {
+        font-weight: bold;
+        color: white;
+    }
+    table.comment tr.separator:hover td a.btn {
+        font-weight: normal;
+    }
+    table.comment tr.separator td a.sright {
+        margin-right: 5px;
+    }
+    table.comment tr.separator td a.sleft:hover {
+        background-color: red!important;
+        transition: none!important;
+    }
+    #left,
+    #right {
+        display: none;
+    }
+    .comment div span.right,
+    .comment div span.meta a {
+        font-family: "Open Sans";
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .comment div span.meta a.call:hover, .results tbody td a.call:hover {
+        color: red;
+    }
+    .forumPosts li span {
+        background: url(http://zupimages.net/up/16/26/bjc1.png);
+        background-size: 40px!important;
+        width: 40px;
+        height: 40px;
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+    }
+    .forumPosts li:hover span {
+        background: url(http://zupimages.net/up/16/26/bjc1.png);
+        -webkit-filter: none;
+        filter: none;
+    }
+    .categories-icons {
+        width: 60px;
+        height: 40px;
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center!important;
+    }
+    #messages .message .data span {
+        padding-top: 3px;
+    }
+    #messages .message .data a {
+        color: black!important;
+        /* BUG : enlève la couleurs des pseudos */
+        
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 8px;
+        text-decoration: none!important;
+    }
+    #messages .message .data a:hover {
+        color: white!important;
+        background-color: #2980b9;
+        transition: background-color 0.3s;
+    }
+    #messages .message .data a.button-delete:hover {
+        background-color: red!important;
+    }
+    #messages .message .data strong a {
+        background: inherit;
+        padding: inherit;
+    }
+    #messages .message .data strong a:hover {
+        color: inherit!important;
+        background: inherit;
+    }
+    .DataList .Excerpt {
+        font-size: 14px;
+        line-height: 7px;
+        margin-top: 12px;
+    }
+    .DataList .Excerpt a:hover {
+        text-decoration: none;
+    }
+    .DataList .Meta {
+        margin-top: 10px;
+    }
+    .categories-icons.cat-433,
+    .categories-icons.category-spline-video-tv-series {
+        background-image: url(http://zupimages.net/up/16/26/y9py.png);
+    }
+    .categories-icons.cat-632,
+    .categories-icons.category-spline-xxx-video,
+    .categories-icons.cat-462,
+    .categories-icons.category-spline-xxx-game-video {
+        background-image: url(http://zupimages.net/up/16/26/kxe6.png);
+    }
+    .categories-icons.cat-631,
+    .categories-icons.category-spline-video-movie,
+    .categories-icons.cat-526,
+    .categories-icons.category-spline-video-,
+    .categories-icons.cat-402,
+    .categories-icons.category-spline-video-clips {
+        background-image: url(http://zupimages.net/up/16/26/xjei.png);
+    }
+    .categories-icons.cat-639,
+    .categories-icons.category-spline-tv-show {
+        background-image: url(http://zupimages.net/up/16/26/z7vb.png);
+    }
+    .categories-icons.cat-246,
+    .categories-icons.category-spline-games-windows,
+    .categories-icons.cat-307,
+    .categories-icons.category-spline-games-nintendo,
+    .categories-icons.cat-308,
+    .categories-icons.category-spline-games-sony,
+    .categories-icons.cat-309,
+    .categories-icons.category-spline-games-microsoft,
+    .categories-icons.cat-628,
+    .categories-icons.category-spline-games-tablet,
+    .categories-icons.cat-626,
+    .categories-icons.category-spline-games-smartphone,
+    .categories-icons.cat-630,
+    .categories-icons.category-spline-games-other {
+        background-image: url(http://zupimages.net/up/16/26/6wg8.png);
+    }
+    .categories-icons.cat-236,
+    .categories-icons.category-spline-app-windows {
+        background-image: url(http://zupimages.net/up/16/26/af8c.png);
+    }
+    .categories-icons.cat-623,
+    .categories-icons.category-spline-audio-music,
+    .categories-icons.cat-403,
+    .categories-icons.category-spline-audio-samples {
+        background-image: url(http://zupimages.net/up/16/26/gphf.png);
+    }
+    .categories-icons.cat-636,
+    .categories-icons.category-spline-video-sport {
+        background-image: url(http://zupimages.net/up/16/26/rwwp.png);
+    }
+    .categories-icons.cat-461,
+    .categories-icons.category-spline-xxx-ebooks {
+        background-image: url(http://zupimages.net/up/16/26/80g4.png);
+    }
+    .categories-icons.cat-637,
+    .categories-icons.category-spline-video-animation-series,
+    .categories-icons.cat-455,
+    .categories-icons.category-spline-video-animation {
+        background-image: url(http://zupimages.net/up/16/26/37cg.png);
+    }
+    .categories-icons.cat-408,
+    .categories-icons.category-spline-ebook-books {
+        background-image: url(http://zupimages.net/up/16/26/oi1e.png);
+    }
+    .categories-icons.cat-406,
+    .categories-icons.category-spline-ebook-bds,
+    .categories-icons.cat-407,
+    .categories-icons.category-spline-ebook-comics {
+        background-image: url(http://zupimages.net/up/16/26/k9qg.png);
+    }
+    .categories-icons.cat-409,
+    .categories-icons.category-spline-ebook-mangas {
+        background-image: url(http://zupimages.net/up/16/26/rsd1.png);
+    }
+    .categories-icons.cat-634,
+    .categories-icons.category-spline-video-documental {
+        background-image: url(http://zupimages.net/up/16/26/lwmx.png);
+    }
+    .categories-icons.cat-633,
+    .categories-icons.category-spline-video-concert {
+        background-image: url(http://zupimages.net/up/16/26/0mwt.png);
+    }
+    .categories-icons.cat-638,
+    .categories-icons.category-spline-education {
+        background-image: url(http://zupimages.net/up/16/26/xhy9.png);
+    }
+    .categories-icons.cat-635,
+    .categories-icons.category-spline-video-show {
+        background-image: url(http://zupimages.net/up/16/26/xzaz.png);
+    }
+    .categories-icons.cat-410,
+    .categories-icons.category-spline-ebook-press {
+        background-image: url(http://zupimages.net/up/16/26/egdy.png);
+    }
+    .categories-icons.cat-625,
+    .categories-icons.category-spline-app-smaptphone,
+    .categories-icons.cat-626,
+    .categories-icons.category-spline-games-smartphone,
+    .categories-icons.cat-627,
+    .categories-icons.category-spline-app-tablet {
+        background-image: url(http://zupimages.net/up/16/26/ao7a.png);
+    }
+    .categories-icons.cat-235,
+    .categories-icons.category-spline-app-macos {
+        background-image: url(http://zupimages.net/up/16/26/mh0c.png);
+    }
+    .categories-icons.cat-245,
+    .categories-icons.category-spline-games-macos {
+        background-image: url(http://zupimages.net/up/16/26/x91q.png);
+    }
+    .categories-icons.cat-405,
+    .categories-icons.category-spline-ebook-audio {
+        background-image: url(http://zupimages.net/up/16/26/32qc.png);
+    }
+    .categories-icons.cat-629,
+    .categories-icons.category-spline-app-other {
+        background-image: url();
+    }
+    .categories-icons.cat-393,
+    .categories-icons.category-spline-gps-maps,
+    .categories-icons.cat-391,
+    .categories-icons.category-spline-gps-applications,
+    .categories-icons.cat-394,
+    .categories-icons.category-spline-gps-various {
+        background-image: url(http://zupimages.net/up/16/26/bfct.jpg);
+    }
+    .categories-icons.cat-234,
+    .categories-icons.category-spline-app-linux {
+        background-image: url(http://zupimages.net/up/16/26/fyor.png);
+    }
+    .categories-icons.cat-400,
+    .categories-icons.category-spline-audio-karaoke {
+        background-image: url(https://i.goopics.net/BAG0.png);
+    }
+    .categories-icons.cat-342,
+    .categories-icons.category-spline-emulation-emulators,
+    .categories-icons.cat-344,
+    .categories-icons.category-spline-emulation-roms {
+        background-image: url(https://i.goopics.net/BLdO.png);
+    }
+    .categories-icons.cat-239,
+    .categories-icons.category-spline-games-linux{
+        background-image: url(https://i.goopics.net/65e1.png);
+    }
+
+
+
+    body#vanilla_post_discussion .Border .Body .Content {
+        margin-top: 7px;
+    }
+    a.BigButton:focus {
+        background: #2980b9;
+    }
+    #Frame #Head .menu {
+        font-family: "Roboto", "Helvetica", "Arial", Sans-serif;
+    }
+    #Frame #Head .Menu #Menu>li ul {
+        width: 800px;
+        -webkit-columns: 2 300px;
+        columns: 2 300px;
+        background-color: #024268;
+    }
+    ul#Menu li:hover,
+    ul#Menu li a:hover,
+    #Menu .depth-1 {
+        background-color: #024268;
+    }
+    
+/* } */
