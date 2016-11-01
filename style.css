@@ -307,14 +307,10 @@
         transition: filter 0.5s, -webkit-filter 0.5s;
     }
     .footer .logos {
-    background-image: url(#);
-    width: 576px;
-    height: 36px;
-    margin: 20px 7px 0px 0px;
-    }   
-    .logos {
-        display: none;
-        /* UpIMG down */
+    background-image: url(https://i.goopics.net/NPnP.png);
+    width: 242px;
+    height: 60px;
+    margin: 3px 15px 0px 0px;
     }
     .pagebar {
         padding-top: 12px;
