@@ -1,2 +1,2 @@
-# t411-flat-design
+# t411-FlatDesign
 Flat Design theme for T411
