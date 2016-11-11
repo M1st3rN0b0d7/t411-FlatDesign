@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 @import url(https://fonts.googleapis.com/css?family=Arimo);
-#shCheckbox span {
+#shCheckbox label {
     margin-top: 1px;
 }
 .torrentDetails .accordion pre {
