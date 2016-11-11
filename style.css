@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 @import url(https://fonts.googleapis.com/css?family=Arimo);
 #shCheckbox label {
-    margin-top: 1px;
+    margin-top: 1px!important;
 }
 .torrentDetails .accordion pre {
     overflow-y: auto;
