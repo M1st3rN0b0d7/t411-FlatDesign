@@ -14,7 +14,7 @@ if(!document.getElementById("FlatDesign")){
     link.id    = "FlatDesign";
     link.rel   = 'stylesheet';
     link.type  = 'text/css';
-    link.href  = 'https://rawgit.com/M1st3rN0b0d7/t411-flat-design/master/style.css';
+    link.href  = 'https://rawgit.com/M1st3rN0b0d7/t411-FlatDesign/master/style.css';
     link.media = 'all';
     head.appendChild(link);
 }
