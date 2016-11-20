@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Flat Design for T411
 // @version      1.0
-// @namespace    https://www.t411.ch
+// @namespace    https://www.t411.li
 // @description  Thème Flat Design pour T411
 // @author       M1st3rN0b0d7
 // @match        https://www.t411.ch/*
