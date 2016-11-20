@@ -5,6 +5,7 @@
 // @description  Thème Flat Design pour T411
 // @author       M1st3rN0b0d7
 // @match        https://www.t411.ch/*
+// @match        https://www.t411.li/*
 // @grant        none
 // ==/UserScript==
 
